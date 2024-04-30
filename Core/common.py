@@ -48,6 +48,7 @@ END = '\001\033[0m\002'
 
 ''' MSG Prefixes '''
 INFO = f'{MAIN}Info{END}'
+TRKN = f'{BLUE}TRHACKNON{END}'
 WARN = f'{ORANGE}Warning{END}'
 IMPORTANT = f'{ORANGE}Important{END}'
 FAILED = f'{RED}Fail{END}'
@@ -56,6 +57,8 @@ DEBUG = f'{ORANGE}Debug{END}'
 CHAT =f'{BLUE}Chat{END}'
 GRN_BUL = f'[{GREEN}*{END}]'
 META = '[\001\033[38;5;93m\002M\001\033[38;5;129m\002e\001\033[38;5;165m\002t\001\033[38;5;201m\002a\001\033[0m\002]'
+TRK = '[\001\033[38;5;93m\002T\001\033[38;5;129m\002R\001\033[38;5;165m\002K\001\033[38;5;201m\002N\001\033[0m\002]'
+
 
 cwd = os.path.dirname(os.path.abspath(__file__))
 
