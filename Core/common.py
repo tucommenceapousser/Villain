@@ -48,7 +48,7 @@ END = '\001\033[0m\002'
 
 ''' MSG Prefixes '''
 INFO = f'{MAIN}Info{END}'
-TRKN = f'{BLUE}TRHACKNON{END}'
+TRKN = f'{MAIN}TRHACKNON{END}'
 WARN = f'{ORANGE}Warning{END}'
 IMPORTANT = f'{ORANGE}Important{END}'
 FAILED = f'{RED}Fail{END}'
